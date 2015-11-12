@@ -1,8 +1,8 @@
-(function(global, document) {
+import {Bulletin} from './modules/Bulletin';
+
+(function(global) {
   'use strict';
 
-  var MyApp = require('./modules/MyApp');
+  global.Bulletin = Bulletin;
 
-  global.MyApp = new MyApp();
-
-})(window, document);
+})(window);
