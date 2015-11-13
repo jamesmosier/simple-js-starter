@@ -1,8 +1,8 @@
-import {Bulletin} from './modules/Bulletin';
+import {MyApp} from './modules/MyApp';
 
 (function(global) {
   'use strict';
 
-  global.Bulletin = Bulletin;
+  global.MyApp = MyApp;
 
 })(window);

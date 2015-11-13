@@ -1,21 +1,21 @@
 {
-  "name": "bulletin",
+  "name": "simple-js-starter",
   "version": "0.0.1",
-  "description": "Simple notifications without any dependencies.",
+  "description": "Simple JS starter boilerplate.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamez14/bulletin.git"
+    "url": "git+https://github.com/jamez14/simple-js-starter.git"
   },
   "author": "James Mosier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamez14/bulletin/issues"
+    "url": "https://github.com/jamez14/simple-js-starter/issues"
   },
-  "homepage": "https://github.com/jamez14/bulletin#readme",
+  "homepage": "https://github.com/jamez14/simple-js-starter#readme",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
