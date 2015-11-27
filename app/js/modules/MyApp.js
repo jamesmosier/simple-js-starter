@@ -1,9 +1,7 @@
-'use strict';
-
 /**
  * Constructor
  */
-var MyApp = function() {
+const MyApp = function MyApp() {
   this.elem = document.getElementById('target');
   this.initialize();
 };
@@ -11,27 +9,25 @@ var MyApp = function() {
 /**
  * Initializes the app
  */
-MyApp.prototype.initialize = function() {
+MyApp.prototype.initialize = function initialize() {
   this.establishHandlers();
 };
 
 /**
  * Establishes event handlers
  */
-MyApp.prototype.establishHandlers = function() {
-  document.addEventListener('DOMContentLoaded', function() {
-
+MyApp.prototype.establishHandlers = function establishHandlers() {
+  document.addEventListener('DOMContentLoaded', function domReady() {
     this.elem.addEventListener('click', this.someFunction, true);
-
   }.bind(this), false);
 };
 
 /**
- * Add & remove token logic
+ * Defines what happens on button click
  */
-MyApp.prototype.someFunction = function(e) {
-  var target = e.target;
+MyApp.prototype.someFunction = function someFunction(e) {
+  const target = e.target;
   console.log(target);
 };
 
-module.exports = MyApp;
+export default MyApp;
